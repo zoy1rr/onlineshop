@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.footer {
+    background: linear-gradient(135deg, #0d0d0d, #1f1f1f);
+    color: #fff;
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.qism {
+    flex: 1;
+    min-width: 250px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff8800;
+    /* asosiy rang */
+    text-shadow: 1px 1px 3px rgba(255, 136, 0, 0.6),
+        0px 0px 10px rgba(255, 204, 0, 0.7);
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.logo:hover {
+    color: #ffcc00;
+    text-shadow: 1px 1px 4px rgba(255, 204, 0, 0.8),
+        0px 0px 15px rgba(255, 136, 0, 0.9);
+}
+
+
+.matn {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.sarlavha {
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.royxat {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.royxat li {
+    margin-bottom: 8px;
+}
+
+.royxat a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.royxat a:hover {
+    color: #ffcc00;
+}
+
+.past_qator {
+    margin-top: 30px;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 13px;
+    color: #888;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .qism {
+        min-width: 100%;
+    }
+
+    .royxat {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .royxat li {
+        margin-bottom: 0;
+    }
+}
