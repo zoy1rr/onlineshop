@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 10px auto;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg {
+    background: linear-gradient(90deg, #4a00e0, #8e2de2);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu_card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.menu_card i,
+p {
+    color: white;
+    font-size: 10px;
+}
+
+.menu_card i {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .bg {
+        display: block;
+    }
+}

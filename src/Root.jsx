@@ -6,6 +6,8 @@ import Login from './pages/login/Login'
 import Products from './pages/products/Products'
 import Register from './pages/register/Register'
 import Notfound from './pages/Notfound'
+import Biz from './pages/biz/Biz'
+Biz
 
 function Root() {
     return (
@@ -14,6 +16,7 @@ function Root() {
             <BrowserRouter>
                 <Routes >
                     <Route path='/' element={<Home></Home>}></Route>
+                    <Route path='/biz' element={<Biz></Biz>}></Route>
                     <Route path='*' element={<Notfound />}></Route>
                 </Routes>
             </BrowserRouter>

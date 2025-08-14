@@ -55,6 +55,11 @@
     background: #ff9900;
 }
 
+.profil a {
+    color: #fff;
+}
+
+
 
 @media (max-width: 600px) {
     .container {

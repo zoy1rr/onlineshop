@@ -13,6 +13,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .sarlavha {
     background: linear-gradient(90deg, #4a00e0, #8e2de2);
     color: white;
@@ -74,10 +78,36 @@ body {
     background: white;
     color: #4a00e0;
     border-radius: 20px;
-    padding: 6px 12px;
+    padding: 6px 18px;
+    font-size: 14px;
     border: none;
     font-weight: 600;
     cursor: pointer;
+    display: none;
+}
+
+.tanlash:hover {
+    background-color: #ffd700;
+    transition: 0.5s;
+}
+
+.tanlash:active {
+    scale: 0.9;
+}
+
+#like {
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+#like:hover {
+    color: #ffd700;
+    transition: 0.5s;
+}
+
+#like:active {
+    scale: 0.8;
 }
 
 .kirish {
@@ -104,6 +134,97 @@ body {
 
 
 
+#menu:hover {
+    color: #ffd700;
+    transition: 0.5s;
+}
+
+#menu:active {
+    scale: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .menyu {
         position: absolute;
@@ -117,6 +238,10 @@ body {
         display: none;
     }
 
+    .tanlash {
+        display: block;
+    }
+
     .belgi img {
         width: 90px;
     }
@@ -126,7 +251,7 @@ body {
     }
 
     .qidiruv {
-        padding: 1px 1px;
+        display: none;
     }
 
     .mobilTugma {

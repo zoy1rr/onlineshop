@@ -19,6 +19,9 @@ function Headerr() {
                         <option>English</option>
                     </select>
                     <a href="/login" className={styles.kirish}>Kirish</a>
+                    <div className={styles.profil}>
+                        <a href=""><i class="fa-solid fa-user"></i> profil</a>
+                    </div>
                 </div>
 
             </div>

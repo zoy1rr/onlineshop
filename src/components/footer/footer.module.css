@@ -1,21 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    max-width: 1220px;
-    margin: 0 auto;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-}
-
-
-
-
 .footer {
     background: linear-gradient(135deg, #0d0d0d, #1f1f1f);
     color: #fff;
@@ -30,6 +12,7 @@ body {
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
+    margin: 10px auto;
 }
 
 .qism {

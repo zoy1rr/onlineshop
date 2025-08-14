@@ -20,7 +20,7 @@ function Header() {
 
                 <nav className={`${styles.menyu} ${menyuOchilgan ? styles.ochiq : ""}`}>
                     <a href="/">Bosh sahifa</a>
-                    <a href="/">Bosh sahifa</a>
+                    <a href="/">Katalog</a>
                     <a href="/">Bosh sahifa</a>
                     <a href="/">Bosh sahifa</a>
                 </nav>
@@ -32,19 +32,16 @@ function Header() {
                         <input type="text" placeholder="Qidirish..." />
                     </div>
 
+                    <a href="" className={styles.tanlash}><i class="fa-solid fa-magnifying-glass"></i> Qidirish</a>
 
 
 
 
 
+                    <i class="fa-regular fa-heart" id={styles.like}></i>
 
 
-                    <div
-                        className={styles.mobilTugma}
-                        onClick={() => setMenyuOchilgan(!menyuOchilgan)}
-                    >
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
+                    <div></div>
                 </div>
             </div>
         </header>

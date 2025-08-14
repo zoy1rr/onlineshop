@@ -16,7 +16,7 @@ function Footer() {
                     <h3 className={styles.sarlavha}>Havolalar</h3>
                     <ul className={styles.royxat}>
                         <li><a href="/">Bosh sahifa</a></li>
-                        <li><a href="/about">Biz haqimizda</a></li>
+                        <li><a href="/biz">Biz haqimizda</a></li>
                         <li><a href="/contact">Aloqa</a></li>
                         <li><a href="/shop">Do‘kon</a></li>
                     </ul>
@@ -25,7 +25,7 @@ function Footer() {
                 <div className={styles.qism}>
                     <h3 className={styles.sarlavha}>Bog‘lanish</h3>
                     <p>📞 +998 95 636 12 48</p>
-                    <p>✉️ zoyir9500@gmail.com</p>
+                    <p href="zoyir9500@gmail.com">✉️ zoyir9500@gmail.com</p>
                 </div>
 
             </div>
